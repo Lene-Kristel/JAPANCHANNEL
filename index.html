@@ -10,7 +10,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <link href="features.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./STYLE/style.css">
   <link rel="stylesheet" href="./STYLE/responsive.css">
   <link rel="stylesheet" href="./STYLE/OWL/owl.carousel.min.css">
@@ -26,9 +25,10 @@
     <div class="mobile-menu">
       <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
         <div class="bg-black p-4">
-          <a class="mobile-menu__link" href="#"> Séries </a>
-          <a class="mobile-menu__link" href="#"> Filmes </a>
-          <a class="mobile-menu__link" href="#"> Documentários </a>
+          <a class="mobile-menu__link" href="#"> Series </a>
+          <a class="mobile-menu__link" href="#"> Movies </a>
+          <a class="mobile-menu__link" href="#"> Documentaries </a>
+          <a class="mobile-menu__link" href="#"> Celebrities </a>
           <a class="mobile-menu__link" href="#"> Login </a>
         </div>
       </div>
@@ -43,49 +43,43 @@
         </div>
       </nav>
     </div>
-    <!--FIM DO MENU DO SITE PARA MOBILE-->
 
     <!--INICIO DO MENU DO SITE PARA COMPUTADOR-->
     <div class="container-menu">
       <a href="index.html"><img src="./SRC/Logo.jpg" alt="logo" width="15%"></a>
       <div class="dropdown">
-        <button class="mainmenubtn">Séries</button>
+        <button class="mainmenubtn">Series</button>
         <div class="dropdown-child">
-          <a href="#">Melhores Avaliações</a>
-          <a href="#">Gêneros</a>
+          <a href="#">Top reviews</a>
+          <a href="#">Genres</a>
         </div>
       </div>
       <div class="dropdown">
-        <button class="mainmenubtn"> Filmes </button>
+        <button class="mainmenubtn">Movies</button>
         <div class="dropdown-child">
-          <a href="#">Melhores Avaliações</a>
-          <a href="#">Gêneros</a>
+          <a href="#">Top reviews</a>
+          <a href="#">Genres</a>
         </div>
       </div>
       <div class="dropdown">
-        <button class="mainmenubtn"> Documentários </button>
+        <button class="mainmenubtn">Documentaries</button>
         <div class="dropdown-child">
-          <a href="#">Melhores Avaliações</a>
-          <a href="#">Tema</a>
+          <a href="#">Top reviews</a>
+          <a href="#">Theme</a>
         </div>
       </div>
       <div class="dropdown">
         <button class="mainmenubtn">
-          <a class="dropdown__link" href="#"> Celebridades </a>
+          <a class="dropdown__link" href="#">Celebrities</a>
         </button>
       </div>
       <div class="dropdown">
         <button class="mainmenubtn">
-          <a class="dropdown__link" href="#"> Comunidade </a>
-        </button>
-      </div>
-      <div class="dropdown">
-        <button class="mainmenubtn">
-          <a class="dropdown__link" href="#"> Sobre o Japão </a>
+          <a class="dropdown__link" href="#">Login</a>
         </button>
       </div>
     </div>
-    <!--FIM DO MENU DO SITE PARA COMPUTADOR-->
+
   </header>
 
   <main>
@@ -93,22 +87,21 @@
     <div class="emphasis">
       <div class="emphasis__container">
         <h3 class="emphasis__container__title">Itazura na Kiss</h3>
-        <p class="emphasis__container__title__synopsis">Kotoko Aihara (Yahagi Honoka) é uma garota comum com notas
-          baixas que se apaixona perdidamente por Naoki Irie (Yuki Furukawa), o garoto mais inteligente e bonito da
-          escola.</p>
-        <p class="emphasis__container__title__synopsis">Ele a ignora até que uma série de eventos aproximam cada vez
-          mais um do outro.</p>
+        <p class="emphasis__container__title__synopsis">Kotoko Aihara (Yahagi Honoka) is an ordinary girl with low
+          grades who falls head over heels in love with Naoki Irie (Yuki Furukawa), the smartest and most handsome boy
+          in school.</p>
+        <p class="emphasis__container__title__synopsis">He ignores her until a series of events brings them closer and
+          closer to each other.</p>
       </div>
       <div class="d-grid gap-2 d-md-block" id="buttons">
-        <button type="button" class="btn btn-danger">Assista Agora</button>
-        <button type="button" class="btn btn-secondary">Minha Lista +</button>
+        <button type="button" class="btn btn-danger">Watch Now</button>
+        <button type="button" class="btn btn-secondary">My List +</button>
       </div>
     </div>
-    <!--FIM DO MAIOR DESTAQUE DA PAGINA-->
 
     <!--INÍCIO DOS CARDS-->
     <div class="container px-4 py-5" id="custom-cards">
-      <h2 class="pb-2 border-bottom">LANÇAMENTOS</h2>
+      <h2 class="pb-2 border-bottom">NEW RELEASES</h2>
 
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <!--PRIMEIRA FOTO-->
@@ -117,7 +110,7 @@
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
               style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./SRC/SERIES/Aoshima-kun\ is\ a\ Bully.jpg'); background-position: center;">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-3">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Aoshima-kun é um valentão</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Aoshima-kun is a bully</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img src="./SRC/play_white.png" alt="Bootstrap" width="45" height="45">
@@ -126,13 +119,13 @@
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill" />
                     </svg>
-                    <small>9 Episódios</small>
+                    <small>9 Episodies</small>
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3" />
                     </svg>
-                    <small>Série</small>
+                    <small>Serie</small>
                   </li>
                 </ul>
               </div>
@@ -146,7 +139,7 @@
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
               style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./SRC/MOVIES/L-DK-dois\ amores\ sob\ o\ mesmo\ teto.jpg'); background-position: center;">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-3">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">L-DK-Dois amores sob o mesmo teto</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">L-DK. Two loves under the same roof</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img src="./SRC/play_white.png" alt="Bootstrap" width="45" height="45">
@@ -155,13 +148,13 @@
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill" />
                     </svg>
-                    <small>Longa</small>
+                    <small>Feature film</small>
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3" />
                     </svg>
-                    <small>Filme</small>
+                    <small>Movie</small>
                   </li>
                 </ul>
               </div>
@@ -184,13 +177,13 @@
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill" />
                     </svg>
-                    <small>Vários Episódios</small>
+                    <small>Multiple Episodies</small>
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3" />
                     </svg>
-                    <small>Documentários</small>
+                    <small>Documentaries</small>
                   </li>
                 </ul>
               </div>
@@ -199,51 +192,178 @@
         </div>
       </div>
     </div>
-    <!--FIM DOS CARDS-->
-
-
 
     <!--INICIO DO CARROSSEL-->
-    <h2 class="pb-2 border-bottom">SÉRIES</h2><br>
-    <div class="owl-carousel owl-theme">
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/Este é o xeque mate do amor.jpg" alt="Foto casal">
+    <div class="mycarousel">
+      <h2 class="pb-2 border-bottom">SERIES</h2><br>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <a href="#"><img class="box-carousel" src="./SRC/SERIES/Este é o xeque mate do amor.jpg" alt="Foto casal">
+            <h4 class="owl__Subtitle">Subtitle</h4>
+          </a>
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/As razoes pelas quais nos apaixonamos.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/Ei Sensei voce nao sabe.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/Eu serei sua flor.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/Garotos que cozinham.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/Me encontre depois da escola.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/Mesmo se voce nao fizer isso.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/Meu querido dono de casa.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/No tempo com voce.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/Shisengumi com voce eu floreco.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/Silencioso.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/SERIES/um caso de amor incuravel.jpg" alt="Foto casal">
+        </div>
       </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/As razoes pelas quais nos apaixonamos.jpg" alt="Foto casal">
+    </div><br><br>
+
+    <div class="mycarousel">
+      <h2 class="pb-2 border-bottom">MOVIES</h2><br>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/A colegial apaixonada e o professor irresponsável.jpg"
+            alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/A esposa em tempo integral fujona.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/A terra alem do ceu estrelado.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/Amor a curta distancia.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/Ao natsu.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/Defesa impossivel.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/Fique comigo.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/Forma de vermelho.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/Identidade roubada.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/Meus dias chuvosos.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/Missoes de amor.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/MOVIES/Sufocando o amor.jpg" alt="Foto casal">
+        </div>
       </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/Ei Sensei voce nao sabe.jpg" alt="Foto casal">
+    </div><br><br>
+
+    <div class="mycarousel">
+      <h2 class="pb-2 border-bottom">DOCUMENTARIES</h2><br>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Karate.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Geiko.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Bonsai.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Bento.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Shinkansen.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Bonecos.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Kurara.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Manga.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Medicine.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Origiri.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Snow.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/DOCUMENTARIES/Under Elevated Train Tracks.jpg" alt="Foto casal">
+        </div>
       </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/Eu serei sua flor.jpg" alt="Foto casal">
-      </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/Garotos que cozinham.jpg" alt="Foto casal">
-      </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/Me encontre depois da escola.jpg" alt="Foto casal">
-      </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/Mesmo se voce nao fizer isso.jpg" alt="Foto casal">
-      </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/Meu querido dono de casa.jpg" alt="Foto casal">
-      </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/No tempo com voce.jpg" alt="Foto casal">
-      </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/Shisengumi com voce eu floreco.jpg" alt="Foto casal">
-      </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/Silencioso.jpg" alt="Foto casal">
-      </div>
-      <div class="item">
-        <img class="box-carousel" src="./SRC/SERIES/um caso de amor incuravel.jpg" alt="Foto casal">
+    </div><br><br>
+
+    <div class="mycarousel">
+      <h2 class="pb-2 border-bottom">CELEBRITIES</h2><br>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Honoka Yahagi.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Keisuke Watanabe.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Mokomichi Hayami.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Yuki Furukawa.jpg " alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Seino Nana.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Shota Watanabe.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Taishi Nakagawa.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Takeru Satoh.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Yoshikawa Ai.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Ryoko Kobayashi.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Yuki Morinaga.jpg" alt="Foto casal">
+        </div>
+        <div class="item">
+          <img class="box-carousel" src="./SRC/CELEBRITIES/Yuki Yamada.jpg" alt="Foto casal">
+        </div>
       </div>
     </div>
-    <!--FIM DO CARROSSEL-->
 
   </main>
 
