@@ -1,87 +1,112 @@
-:root{
-    --primary:#000000;
-    --secondary:#ffffff;
-    --tertiary:rgb(188, 0, 45);
-    --fourth:#ffffffb3;
+:root {
+    --primary: #000000;
+    --secondary: #ffffff;
+    --tertiary: #cc0033;
+    --fourth: #ffffffb3;
 }
-body{
-    background-color:var(--primary);
-    font-family: inherit, Arial,Helvetica,sans-serif;
+
+body {
+    background-color: var(--primary);
+    font-family: inherit, Arial, Helvetica, sans-serif;
     line-height: 1.15;
-    color: var(--secondary); 
+    color: var(--secondary);
     font-size: large;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--secondary);
-} 
-.mobile-menu{
-    display:flexbox;
+}
+
+.mobile-menu {
+    display: flexbox;
     flex-direction: row;
     margin-left: 0% 5%;
     padding: 0;
     max-width: none;
     align-items: left;
 }
-.mobile-menu__link{
+
+.mobile-menu__link {
     margin-left: 2%;
     text-decoration: none;
     color: var(--secondary);
 }
-.mobile-menu__link:hover{
+
+.mobile-menu__link:hover {
     margin-left: 2%;
     text-decoration: none;
     background-color: var(--secondary);
     color: var(--primary);
 }
-.container-menu{
-    display:flexbox;
+
+.container-menu {
+    display: flexbox;
     flex-direction: row;
     margin-left: 0% 5%;
     padding: 0;
     max-width: none;
     align-items: left;
 }
-.dropdown__link{
+
+.dropdown__link {
     text-decoration: none;
     color: var(--secondary);
 }
+
 .dropdown__link:hover {
     color: var(--primary);
-  }
+}
+
 .mainmenubtn {
     background-color: var(--primary);
     color: var(--secondary);
     border: none;
     cursor: pointer;
 }
+
 .mainmenubtn:hover {
     background-color: var(--secondary);
     color: var(--primary);
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
+
 .dropdown-child {
     display: none;
     background-color: var(--secondary);
     min-width: 200px;
 }
+
 .dropdown-child a {
     color: var(--primary);
     padding: 20px;
     text-decoration: none;
     display: block;
-    }
+}
+
 .dropdown-child a:hover {
     background-color: rgba(188, 0, 45, 0.2);
-    }
+}
+
 .dropdown:hover .dropdown-child {
     display: block;
     position: fixed;
-    }
-.emphasis{
+}
+
+.J-modal-hidden {}
+
+.J-modal {}
+
+#modalSignin {
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5));
+}
+
+
+.emphasis {
     padding-left: 1%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../SRC/SERIES/Itazura\ na\ kiss4.jpg);
     height: 500px;
@@ -93,19 +118,41 @@ a{
     justify-content: center;
     align-items: flex-start;
 }
-.emphasis__container__title{
+
+.emphasis__container__title {
     font-size: 50px;
 }
-.emphasis__container__title__synopsis{
+
+.emphasis__container__title__synopsis {
     font-size: 20px;
     color: var(--secondary);
 }
-#buttons{
+
+#buttons {
     margin-top: 10px;
 }
 
-.box-carousel{
+.box-carousel {
     height: 250px;
     width: 250px;
     display: block;
+}
+
+.MyFooter {
+    border: solid 2px;
+    border-color: var(--fourth);
+    padding: 2%;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MyFooter__icons {
+    display: flex;
+    justify-content: right;
+}
+
+.MyFooter__icons__img {
+    width: 50px;
 }
